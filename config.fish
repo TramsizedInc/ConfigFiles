@@ -154,13 +154,18 @@ alias doom="/home/csaba/.emacs.d/bin"
 # Csabavagyok
 alias fuckoff="exit"
 
+alias aceofspades="neofetch --source aceofspades.ascii --cpu_temp C --memory_percent on --refresh_rate on --disk_percent on"
+alias kitty="kitty -o background_opacity=0.6"
+
 alias restart="reboot"
 
+alias clera="clear"
+alias clearandshit="clear && neofetch --source aceofspades.ascii --cpu_temp C --memory_percent on --refresh_rate on --disk_percent on"
 alias emacs="emacsclient -a -c 'emacs'"
 alias eshell="emacsclient -a -c 'emacs' --eval '(eshell)'"
 
 ## Run paleofetch if session is interactive
 if status --is-interactive
-   neofetch --source revolver.ascii --cpu_temp C --memory_percent on --refresh_rate on --disk_percent on
+   neofetch --source aceofspades.ascii --cpu_temp C --memory_percent on --refresh_rate on --disk_percent on
 #   neofetch --source revolver.ascii --cpu_temp C --memory_percent on --refresh_rate on --disk_percent on
 end
