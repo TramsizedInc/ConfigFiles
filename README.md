@@ -1,7 +1,7 @@
 # ConfigFiles
 
 My setup for a WM called spectrwm with it's own bar 
-My fish setup
+my fish setup
 Some ascii art for the fish
 
 The baraction.sh has some dependencies, all of them are listed inside of the file
