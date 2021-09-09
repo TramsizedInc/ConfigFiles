@@ -67,8 +67,10 @@ cpu() {
 
 ## VOLUME
 vol() {
-    vol=`amixer get Master | awk -F'[][]' 'END{ print $4":"$2 }' | sed 's/on://g'`
-    echo -e "VOL: $vol"
+    #vol=`amixer get Master | awk -F'[][]' 'END{ print $4":"$2 }' | sed 's/on://g'`
+  vol=`pactl list sinks | grep '^[[:space:]]Volume:' | \
+    head -n $(( $SINK + 1 )) | tail -n 1 | sed -e 's,.* \([0-9][0-9]*\)%.*,\1,'`
+  echo -e "VOL: $vol"
 }
 
 ## CPU_TEMP
