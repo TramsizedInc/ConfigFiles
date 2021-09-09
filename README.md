@@ -11,5 +11,5 @@ but there is a catch! The "echo -e" command has some limitations regarding strin
 All dependencies can be installed on arch but I personaly have never tried it on 
 anything else, other than arch, so good luck if you do so
 
-I don't care what you do with the files sell them, give tham away or trade it for 
+I don't care what you do with the files sell them, give them away or trade it for 
 some kidney, no copyright is applied. I'd be flattered if you'd name me as an author...
