@@ -1,8 +1,6 @@
 # ConfigFiles
 
-My setup for a WM called spectrwm with it's own bar 
-my fish setup
-Some ascii art for the fish
+My setup for a WM called spectrwm with it's own bar, my fish setup and some ascii art for the fish
 
 The baraction.sh has some dependencies, all of them are listed inside of the file
 To use that, you might have to make it executable (chmod +x)
